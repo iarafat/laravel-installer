@@ -32,7 +32,7 @@ Open up your terminal and type `laravel`.
 
 
 
-  v1.0.0
+  1.0.0
 
   USAGE: laravel <command> [options] [arguments]
 

@@ -12,7 +12,9 @@
     "authors": [
         {
             "name": "Florian Wartner",
-            "email": "florian@mapawa.de"
+            "email": "florian@mapawa.de",
+            "role": "maintainer",
+            "homepage": "https://wartner.io"
         }
     ],
     "require": {
@@ -30,6 +32,11 @@
         "friendsofphp/php-cs-fixer": "^2.13",
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^7.3"
+    },
+    "replace": {
+        "laravel/installer": "*",
+        "laravel/lumen-installer": "*",
+        "laravel/spark-installer": "*"
     },
     "autoload": {
         "psr-4": {

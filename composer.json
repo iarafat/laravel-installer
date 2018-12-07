@@ -33,11 +33,6 @@
         "mockery/mockery": "^1.0",
         "phpunit/phpunit": "^7.3"
     },
-    "replace": {
-        "laravel/installer": "*",
-        "laravel/lumen-installer": "*",
-        "laravel/spark-installer": "*"
-    },
     "autoload": {
         "psr-4": {
             "App\\": "app/"

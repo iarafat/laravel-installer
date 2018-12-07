@@ -18,6 +18,14 @@ Laravel installer includes all installers from the official laravel repositories
 
 To install the laravel-installer globally using composer, simply type `composer global require fwartner/laravel-installer` and you´re good to go.
 
+#### Installation Note
+
+Please make sure that you have removed `laravel/installer` from your global `composer.json` using the following command:
+
+`composer global remove laravel/installer`
+
+(This is only necessary if you have the official installer on your machine)
+
 ## Usage
 
 Open up your terminal and type `laravel`.
